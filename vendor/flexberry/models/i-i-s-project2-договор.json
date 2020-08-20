@@ -7,18 +7,18 @@
   "parentClassName": null,
   "attrs": [
     {
-      "name": "primarykey",
-      "type": "guid",
-      "flexberryType": "guid",
+      "name": "идентификатор",
+      "type": "number",
+      "flexberryType": "int",
       "notNull": false,
       "defaultValue": "",
       "stored": true,
       "ordered": false
     },
     {
-      "name": "идентификатор",
-      "type": "number",
-      "flexberryType": "int",
+      "name": "primarykey",
+      "type": "guid",
+      "flexberryType": "guid",
       "notNull": false,
       "defaultValue": "",
       "stored": true,

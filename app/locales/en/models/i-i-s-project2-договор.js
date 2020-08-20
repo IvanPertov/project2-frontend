@@ -6,11 +6,11 @@ export default {
     }
   },
   validations: {
-    primarykey: {
-      __caption__: 'primarykey'
-    },
     идентификатор: {
       __caption__: 'идентификатор'
+    },
+    primarykey: {
+      __caption__: 'primarykey'
     },
     датаНачала: {
       __caption__: 'датаНачала'
