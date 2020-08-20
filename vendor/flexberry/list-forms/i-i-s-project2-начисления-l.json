@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-project2-начисления-e",
+  "editForm": "i-i-s-project2-начисления-e",
+  "external": false,
+  "caption": "Начисления",
+  "name": "IISproject2НачисленияL",
+  "className": "НачисленияL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-project2-начисления",
+      "modelProjection": "НачисленияL"
+    }
+  ]
+}

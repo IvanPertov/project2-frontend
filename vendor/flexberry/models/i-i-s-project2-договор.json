@@ -1,0 +1,87 @@
+﻿{
+  "name": "IISproject2Договор",
+  "modelName": "i-i-s-project2-договор",
+  "className": "Договор",
+  "nameSpace": "IIS.project2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "primarykey",
+      "type": "guid",
+      "flexberryType": "guid",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "идентификатор",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "датаНачала",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "датаОкончания",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "состояние",
+      "type": "string",
+      "flexberryType": "String",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "зУДоговора",
+      "relatedTo": "i-i-s-project2-з-у-договора",
+      "inverse": "договор"
+    },
+    {
+      "name": "контрДоговора",
+      "relatedTo": "i-i-s-project2-контр-договора",
+      "inverse": "договор"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ДоговорE",
+      "modelName": "i-i-s-project2-договор",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ДоговорL",
+      "modelName": "i-i-s-project2-договор",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

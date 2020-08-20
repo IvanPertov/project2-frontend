@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "ЗУ",
+  "name": "IISproject2ЗУE",
+  "className": "ЗУE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-project2-з-у",
+      "modelProjection": "ЗУE"
+    }
+  ]
+}
