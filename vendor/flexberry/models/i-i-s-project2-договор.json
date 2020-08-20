@@ -45,7 +45,7 @@
     {
       "name": "состояние",
       "type": "string",
-      "flexberryType": "String",
+      "flexberryType": "string",
       "notNull": false,
       "defaultValue": "",
       "stored": true,
